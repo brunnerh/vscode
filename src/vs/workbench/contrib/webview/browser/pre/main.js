@@ -73,15 +73,15 @@
 		max-height: 100%;
 	}
 
-	a {
+	a[href] {
 		color: var(--vscode-textLink-foreground);
 	}
 
-	a:hover {
+	a[href]:hover {
 		color: var(--vscode-textLink-activeForeground);
 	}
 
-	a:focus,
+	a[href]:focus,
 	input:focus,
 	select:focus,
 	textarea:focus {
